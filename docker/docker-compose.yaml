@@ -1,0 +1,18 @@
+version: '3'
+services:
+  vault:
+    image: vault:1.6.2
+    container_name: hashitalks-vault
+    ports:
+      - "8200:8200"
+    restart: always
+    environment:
+      VAULT_ADDR: "https://127.0.0.1:8200"
+    volumes:
+      - /Users/rodanami/conferences/hashitalks-2021/volumes/logs:/vault/logs
+      - /Users/rodanami/conferences/hashitalks-2021/volumes/file:/vault/file
+      - /Users/rodanami/conferences/hashitalks-2021/volumes/config:/vault/config
+      - /Users/rodanami/conferences/hashitalks-2021/volumes/certs:/vault/certs
+    cap_add:
+      - IPC_LOCK
+    entrypoint: vault server -config=/vault/config/vault.json

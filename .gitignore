@@ -1,0 +1,4 @@
+demo-app/node_modules
+volumes/
+*.env
+*/*.env
