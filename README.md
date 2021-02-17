@@ -4,7 +4,7 @@
 ## Informações do evento
 
 * Date: `02/17/2021`
-* Time: `16:30 GMT / 13:00 h BRT`
+* Time: `16:30 GMT / 13:30 h BRT`
 * Register/ Agenda: [Link](https://hashi.co/hashitalks2021)
 * Live stream: [Link](https://youtu.be/AjBj-M5WuyE)
 
