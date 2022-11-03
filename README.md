@@ -1,14 +1,14 @@
 # HashiTalks 2021
 
 
-## Informações do evento
+## Event information
 
 * Date: `02/17/2021`
 * Time: `16:30 GMT / 13:30 h BRT`
 * Register/ Agenda: [Link](https://hashi.co/hashitalks2021)
 * Live stream: [Link](https://youtu.be/AjBj-M5WuyE)
 
-## Conteúdo
+## Contents
 
 * `cert`
   * TLS certificates used to connect to the Vault server
@@ -41,6 +41,6 @@
   * GitHub: [Link](https://github.com/rod4n4m1/hashi-vault-js)
   * Installation: `npm install hashi-vault-js --save`
 
-* Servidor HashiCorp Vault
+* HashiCorp Vault Server
   * Docker image: `vault:1.6.2`
   * Location: [Link](https://hub.docker.com/_/vault)
